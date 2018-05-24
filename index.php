@@ -31,7 +31,7 @@ if( isset($_SESSION['user_id']) ){
 <body>
 
 	<div class="header">
-		<a href="/">Your App Name</a>
+		<a href="/">Prueba2 Morillo_Vivas</a>
 	</div>
 
 	<?php if( !empty($user) ): ?>
@@ -43,7 +43,7 @@ if( isset($_SESSION['user_id']) ){
 
 	<?php else: ?>
 
-		<h1>Logeese o registres</h1>
+		<h1>Logeese o registrese</h1>
 		<a href="login.php">Login</a> or
 		<a href="register.php">Register</a>
 
