@@ -23,7 +23,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])):
 		header("Location: /");
 
 	} else {
-		$message = 'Sorry, those credentials do not match';
+		$message = 'Datos no registrados';
 	}
 
 endif;
@@ -40,7 +40,7 @@ endif;
 <body>
 
 	<div class="header">
-		<a href="/">Your App Name</a>
+		<a href="/">Prueba2 Morillo Vivas</a>
 	</div>
 
 	<?php if(!empty($message)): ?>
@@ -52,8 +52,8 @@ endif;
 
 	<form action="login.php" method="POST">
 		
-		<input type="text" placeholder="Enter your email" name="email">
-		<input type="password" placeholder="and password" name="password">
+		<input type="text" placeholder="Ingrese su email" name="email">
+		<input type="password" placeholder="password" name="password">
 
 		<input type="submit">
 

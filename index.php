@@ -24,7 +24,7 @@ if( isset($_SESSION['user_id']) ){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome to your Web App</title>
+	<title>Bienvenido</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
 </head>
@@ -37,13 +37,13 @@ if( isset($_SESSION['user_id']) ){
 	<?php if( !empty($user) ): ?>
 
 		<br />Welcome <?= $user['email']; ?> 
-		<br /><br />You are successfully logged in!
+		<br /><br />Login correcot!
 		<br /><br />
-		<a href="logout.php">Logout?</a>
+		<a href="logout.php">salir?</a>
 
 	<?php else: ?>
 
-		<h1>Please Login or Register</h1>
+		<h1>Logeese o registres</h1>
 		<a href="login.php">Login</a> or
 		<a href="register.php">Register</a>
 
