@@ -1,8 +1,8 @@
 <?php
-$server = 'localhost';
-$username = 'root';
-$password = 'root';
-$database = 'auth';
+$server = 'loginuser.mysql.database.azure.com';
+$username = 'user@loginuser';
+$password = 'Anderson123';
+$database = 'login';
 
 try{
 	$conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
